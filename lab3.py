@@ -1,3 +1,4 @@
+import numpy as np 
 def bas_diagonal_toplam(matris):
     n = len(matris)
     toplam = 0
@@ -7,7 +8,7 @@ def bas_diagonal_toplam(matris):
 
     return toplam
 
-matris = [
+matris = np.array[
     [1, 2, 3],
     [4, 5, 6],
     [7, 8, 9]
